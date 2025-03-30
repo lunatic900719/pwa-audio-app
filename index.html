@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA 音訊調整</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <h1>🎵 音訊調整 PWA</h1>
+
+    <!-- 音樂播放器 -->
+    <input type="file" id="audioFile" accept="audio/*">
+    <audio id="audioPlayer" controls></audio>
+
+    <!-- 調整音高 -->
+    <label for="pitchControl">🎚️ 調整音高</label>
+    <input type="range" id="pitchControl" min="-12" max="12" value="0">
+    
+    <script src="app.js"></script>
+</body>
+</html>

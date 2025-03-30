@@ -1,0 +1,6 @@
+│── index.html          # 主頁面
+│── styles.css          # CSS 樣式
+│── app.js              # 核心 JavaScript 程式碼
+│── manifest.json       # PWA 設定檔
+│── service-worker.js   # Service Worker (PWA 快取)
+│── assets/             # 存放圖示
